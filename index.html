@@ -17,35 +17,66 @@
 
 <body>
 
-   <header class="header">
-      <address>
-         <ul class="contact-list">
-            <li class="contact-item"><a href="tel:+380123456789" class="contact-link">(+380) 12-345-67-89</a></li>
-            <span>|</span>
-            <li class="contact-item">
-               <p class="contact-text">Работаем 7 дней в неделю</p>
-            </li>
-            <span>|</span>
-            <li class="contact-item">
-               <p class="contact-text">9:00 — 18:00</p>
-            </li>
-         </ul>
-      </address>
-      <a class="login" href="">Войти / Регистрация</a>
+   <header class="header container">
+      <div class="header-content">
+         <address>
+            <ul class="contact-list">
+
+               <li class="contact-item icon-ident">
+                  <svg class="icon-tel" width="14" height="14">
+                     <use href="./images/symbol-defs.svg#tel"></use>
+                  </svg>
+               </li>
+
+               <li class="contact-item"><a href="tel:+380123456789" class="contact-link">(+380) 12-345-67-89</a></li>
+               <span class="contact-symbol">|</span>
+               <li class="contact-item">
+                  <p class="contact-text">Работаем 7 дней в неделю</p>
+               </li>
+               <span class="contact-symbol">|</span>
+               <li class="contact-item">
+                  <p class="contact-text">9:00 — 18:00</p>
+               </li>
+            </ul>
+         </address>
+         <div class="contact-icon">
+               <svg class="icon-login" width="14" height="14">
+                  <use href="./images/symbol-defs.svg#login"></use>
+               </svg>
+            <a class="login" href="">Войти / Регистрация</a>
+         </div>
+      </div>
    </header>
 
    <main class="main">
 
-      <section class="navigation">
+      <section class="navigation container">
          <h2 class="logo">porten</h2>
          <ul class="nav-list">
             <li class="nav-item"><a href="" class="nav-link">Понравилось</a></li>
             <li class="nav-item"><a href="" class="nav-link">личный кабинет</a></li>
             <li class="nav-item"><a href="" class="nav-link">настройки</a></li>
          </ul>
+
+<ul class="nav-list-icon">
+   <li class="nav-item-icon"><a href="" class="nav-link-icon">
+<svg class="icon-login" width="22" height="22">
+   <use href="./images/symbol-defs.svg#shop"></use>
+</svg>
+   </a></li>
+   <li class="nav-item-icon"><a href="" class="nav-link-icon">
+<svg class="icon-login" width="22" height="22">
+   <use href="./images/symbol-defs.svg#search"></use>
+</svg>
+   </a></li>
+</ul>
+
+
+
+
       </section>
 
-      <section class="hero">
+      <section class="hero container">
          <h1 class="hero-title">PORTEN</h1>
          <p class="logo-text">Украина</p>
          <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor
@@ -55,7 +86,7 @@
             ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
       </section>
 
-      <section class="new-season">
+      <section class="new-season ">
          <p class="new-season-suptitle section-title">СЕЗОН 2020/21</p>
          <ul class="new-season-list">
             <li class="new-season-item">
@@ -96,7 +127,7 @@
       </section>
 
 
-      <section class="new-collection">
+      <section class="new-collection" container>
          <p class="section-title section-title">новые поступления</p>
 
          <ul class="new-collection-list">
@@ -143,7 +174,7 @@
          </ul>
       </section>
 
-      <section class="brands">
+      <section class="brands container">
 
          <p class="brands-title section-title">наши бренды</p>
          <ul class="brands-list">
@@ -154,7 +185,7 @@
          </ul>
       </section>
 
-      <section class="about">
+      <section class="about container">
          <h3 class="about-title">О магазине</h3>
          <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus
             tortor lectus nunc nulla nibh.
@@ -177,14 +208,13 @@
          <input type="text" name="ПОДПИСАТЬСЯ" />
       </section>
    </main>
+   <img src="" alt="">
 
-   <footer class="footer">
+   <footer class="footer container">
 
       <p class="footer-text">&#169 2020 Все права защищены</p>
 
    </footer>
-
-
 
 </body>
 
