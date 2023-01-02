@@ -135,7 +135,8 @@ margin-left: 10px;
 .navigation {
 
 display: flex;
-align-items: center;   
+align-items: center;
+height: 80px;   
 }
 
 .logo {
@@ -155,11 +156,8 @@ margin-left: auto;
 
 .nav-item {
 
-padding-top: 31px;
-padding-bottom: 31px;
-padding-left: 20px;
-padding-right: 20px;
-background-color:#1F1F1F;;
+
+background-color:#1F1F1F;
 
 }
 
@@ -167,7 +165,12 @@ background-color:#1F1F1F;;
    font-size: 14px;
       line-height: 1.3px;
       text-transform: uppercase;
-    
+   
+   padding-top: 31px;
+      padding-bottom: 31px;
+      padding-left: 20px;
+      padding-right: 20px;
+   background-color: #1F1F1F;
 }
 
 .nav-list-icon {
