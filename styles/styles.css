@@ -136,6 +136,17 @@ margin-right: 14px;
 color: var(--hover-color);
 }  
 
+
+.contact-link:hover .icon-tel,
+.contact-link:focus .icon-tel{
+
+   color: var(--hover-color);
+   fill: var(--hover-color);
+}
+
+
+
+
 .contact-text {}
 
 .login {
@@ -145,8 +156,18 @@ color:var(--third-text-color);
 margin-left: 10px;
 
 }
+
 .login:hover,
-.login:focus{
+.login:focus
+{
+
+   color: var(--hover-color);
+   fill: var(--hover-color);
+}
+
+.login:hover .icon-login,
+.login:focus .icon-login
+{
 
 color: var(--hover-color);
 fill: var(--hover-color);
