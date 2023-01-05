@@ -102,7 +102,10 @@ fill: var(--hover-color);
 
 }
 
-.contact-item {}
+.contact-item {
+
+display: flex;
+}
 
 .icon-tel{
 margin-top: auto;
@@ -647,7 +650,7 @@ width: 342px;
 
 .about-item {
 
-height: 41px;
+
 background-color: #0F0F0F;;
 
 min-width: calc((100% - 40px) / 3);
